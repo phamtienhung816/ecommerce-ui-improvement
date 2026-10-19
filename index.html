@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bài tập cải tiến giao diện thẻ sản phẩm TMĐT bằng HTML5 và CSS3, tham khảo khảo sát Hasaki.">
+  <title>Cải tiến thẻ sản phẩm | Bài tập HTML/CSS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-brand" href="index.html" aria-label="Trang chủ bản giao diện minh họa">UX LAB <span>• E-COMMERCE</span></a>
+      <span class="header-note">BÀI TẬP CÁ NHÂN · HTML/CSS</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-heading" aria-labelledby="page-title">
+      <p class="eyebrow">GIAO DIỆN ĐỀ XUẤT · THAM KHẢO HASAKI</p>
+      <h1 id="page-title">Sữa rửa mặt <span>– chọn nhanh, nhìn rõ</span></h1>
+      <p class="intro">Thẻ sản phẩm được sắp xếp lại để ưu tiên hình ảnh, tên, dung tích và giá bán. Thông tin ưu đãi đặt riêng, tránh cạnh tranh sự chú ý với giá.</p>
+      <div class="feature-list" aria-label="Mục tiêu cải tiến">
+        <span>Giá khuyến mãi nổi bật</span>
+        <span>Thông tin dễ đọc</span>
+        <span>Phù hợp thiết bị di động</span>
+      </div>
+    </section>
+
+    <section class="products" aria-labelledby="products-title">
+      <div class="section-bar">
+        <div>
+          <p class="section-kicker">DANH SÁCH MẪU</p>
+          <h2 id="products-title">Sản phẩm chăm sóc da</h2>
+        </div>
+        <p class="product-count">4 sản phẩm minh họa</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-media">
+            <span class="discount">-20%</span>
+            <img src="images/product-01.svg" alt="Minh họa chai sữa rửa mặt Sera dịu nhẹ 150 ml" width="320" height="320">
+          </div>
+          <div class="product-info">
+            <p class="product-brand">SERA CARE</p>
+            <h3 class="product-title">Sữa rửa mặt dịu nhẹ cho da nhạy cảm</h3>
+            <p class="product-meta">150 ml · Da nhạy cảm</p>
+            <div class="pricing"><strong>199.000 đ</strong><del>249.000 đ</del></div>
+            <p class="offer">Ưu đãi: Giảm trực tiếp 50.000 đ</p>
+            <details class="product-action">
+              <summary class="action-button">Xem nhanh sản phẩm</summary>
+              <div class="quick-view"><strong>Thông tin tham khảo</strong><p>Kết cấu dạng kem dịu nhẹ, dành cho da nhạy cảm (thông tin minh họa).</p></div>
+            </details>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-media media-blue">
+            <span class="discount">-24%</span>
+            <img src="images/product-02.svg" alt="Minh họa chai sữa rửa mặt Pureglow cấp ẩm 200 ml" width="320" height="320">
+          </div>
+          <div class="product-info">
+            <p class="product-brand">PUREGLOW</p>
+            <h3 class="product-title">Gel rửa mặt cấp ẩm, làm sạch nhẹ nhàng</h3>
+            <p class="product-meta">200 ml · Da khô</p>
+            <div class="pricing"><strong>259.000 đ</strong><del>340.000 đ</del></div>
+            <p class="offer">Ưu đãi: Quà tặng mẫu thử</p>
+            <details class="product-action">
+              <summary class="action-button">Xem nhanh sản phẩm</summary>
+              <div class="quick-view"><strong>Thông tin tham khảo</strong><p>Kết cấu gel, định hướng dưỡng ẩm cho da khô (thông tin minh họa).</p></div>
+            </details>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-media media-peach">
+            <span class="discount">-18%</span>
+            <img src="images/product-03.svg" alt="Minh họa chai sữa rửa mặt Dermia cân bằng 180 ml" width="320" height="320">
+          </div>
+          <div class="product-info">
+            <p class="product-brand">DERMIA LAB</p>
+            <h3 class="product-title">Sữa rửa mặt cân bằng, hỗ trợ da dầu</h3>
+            <p class="product-meta">180 ml · Da dầu</p>
+            <div class="pricing"><strong>229.000 đ</strong><del>279.000 đ</del></div>
+            <p class="offer">Ưu đãi: Giảm trực tiếp 50.000 đ</p>
+            <details class="product-action">
+              <summary class="action-button">Xem nhanh sản phẩm</summary>
+              <div class="quick-view"><strong>Thông tin tham khảo</strong><p>Kết cấu gel, phù hợp da dầu theo mô tả mẫu (thông tin minh họa).</p></div>
+            </details>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-media media-violet">
+            <span class="discount">-25%</span>
+            <img src="images/product-04.svg" alt="Minh họa chai gel rửa mặt Aquaskin tươi mát 120 ml" width="320" height="320">
+          </div>
+          <div class="product-info">
+            <p class="product-brand">AQUASKIN</p>
+            <h3 class="product-title">Gel rửa mặt tươi mát, sạch thoáng hằng ngày</h3>
+            <p class="product-meta">120 ml · Mọi loại da</p>
+            <div class="pricing"><strong>149.000 đ</strong><del>199.000 đ</del></div>
+            <p class="offer">Ưu đãi: Tiết kiệm 50.000 đ</p>
+            <details class="product-action">
+              <summary class="action-button">Xem nhanh sản phẩm</summary>
+              <div class="quick-view"><strong>Thông tin tham khảo</strong><p>Kết cấu gel tươi mát, sử dụng hằng ngày (thông tin minh họa).</p></div>
+            </details>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>BẢN DEMO HỌC TẬP · Giao diện minh họa phục vụ bài tập học phần. Dữ liệu, nhãn hiệu và hình ảnh sản phẩm là ví dụ giả định, không phải hàng hóa có bán tại Hasaki.</p>
+      <p>“Xem nhanh sản phẩm” mở mô tả minh họa bằng HTML thuần (details/summary); không có JavaScript, backend, giỏ hàng hay thanh toán.</p>
+    </div>
+  </footer>
+</body>
+</html>

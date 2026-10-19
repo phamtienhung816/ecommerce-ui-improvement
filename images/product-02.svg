@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="Minh họa sản phẩm PURE GLOW">
+ <rect width="320" height="320" fill="#e5f4ff"/>
+ <circle cx="253" cy="68" r="43" fill="#eff9ff"/><circle cx="59" cy="251" r="33" fill="#eff9ff"/>
+ <ellipse cx="160" cy="286" rx="67" ry="10" fill="#64766c" opacity=".14"/>
+ <rect x="142" y="45" width="36" height="33" rx="6" fill="#4382c4"/>
+ <rect x="146" y="40" width="28" height="14" rx="4" fill="#d9e1dd"/>
+ <rect x="110" y="69" width="100" height="214" rx="18" fill="white" stroke="#dce5df" stroke-width="2"/>
+ <rect x="116" y="115" width="88" height="116" rx="8" fill="#eff9ff"/>
+ <rect x="122" y="135" width="76" height="6" rx="3" fill="#4382c4" opacity=".35"/>
+ <text x="160" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#4382c4">PURE</text>
+ <text x="160" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#4382c4">GLOW</text>
+ <text x="160" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="8.5" fill="#587064">HYDRATING GEL</text>
+ <text x="160" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#687e71">HYDRATE</text>
+ <text x="160" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#87998c">DEMO PRODUCT</text>
+ </svg>
