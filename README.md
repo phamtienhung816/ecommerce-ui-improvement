@@ -31,7 +31,12 @@ Mở file `index.html` trong Chrome, hoặc sử dụng VS Code với tiện íc
 - **Sinh viên bổ sung ở đây thay đổi CSS thực tế tự làm sau khi kiểm tra.**
 
 ## 7. Hỗ trợ từ AI
-AI hỗ trợ đề xuất bố cục, viết mã mẫu và giải thích HTML/CSS. Sinh viên cần chạy thử, kiểm tra, sửa lỗi và ghi lại các thay đổi tự thực hiện trong `AI_USAGE.md` trước khi nộp.
+
+ChatGPT hỗ trợ phân tích giao diện Hasaki, đề xuất bố cục cải tiến, xây dựng mã HTML/CSS mẫu và giải thích các thành phần mã nguồn.
+
+Sau khi tham khảo kết quả AI, tôi đã chạy thử giao diện trên trình duyệt Chrome và tự điều chỉnh khoảng cách giữa các thẻ sản phẩm bằng cách thay đổi thuộc tính `gap` trong file `css/style.css` từ `16px` lên `32px`, giúp bố cục thoáng và dễ quan sát hơn.
+
+Quá trình sử dụng AI, kiểm tra và chỉnh sửa được ghi lại trong file `AI_USAGE.md`.
 
 ## 8. Lưu ý khi nộp báo cáo Word
 - Chụp ảnh website gốc, mã nguồn VS Code, màn hình Desktop và Mobile (F12 / Ctrl+Shift+M).

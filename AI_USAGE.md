@@ -84,11 +84,19 @@ Tôi sử dụng ChatGPT để hỗ trợ phân tích năm khu vực của websi
 
 Phiên bản mẫu đã được AI hỗ trợ đánh giá ở các độ rộng màn hình 1440px (máy tính), 820px (máy tính bảng) và 390px (điện thoại). Tuy nhiên, **kết quả này không thay thế việc sinh viên tự mở `index.html` bằng Chrome, kiểm tra hình ảnh, bố cục, trạng thái mở/đóng và lưu ảnh chụp minh chứng**. Chỉ xác nhận “Đạt” trong báo cáo khi đã tự thực hiện các thao tác đó.
 
-### 5.3. Điểm tự điều chỉnh cần thực hiện để hoàn thành yêu cầu cá nhân
+### 5.3. Phần tôi tự điều chỉnh
 
-Từ bộ mã nguồn ban đầu, thuộc tính `gap` của `.product-grid` được đặt là `16px`. Một phương án điều chỉnh là thử đổi thành `20px` để tăng khoảng cách giữa các thẻ sản phẩm, sau đó tải lại trang và so sánh. Việc thay đổi chỉ được ghi là **“tôi đã tự điều chỉnh”** sau khi sinh viên thực sự sửa file `css/style.css`, kiểm tra kết quả và chụp minh chứng trước/sau.
-
-Đến thời điểm chuẩn bị nhật ký này, **chưa có xác nhận từ sinh viên về thao tác chỉnh sửa riêng đã hoàn tất**. Vì vậy, không ghi nhận phương án trên như một kết quả tự thực hiện. Cần cập nhật mục này theo thao tác và giá trị CSS thực tế trước khi nộp.
+- File chỉnh sửa: `css/style.css`.
+- Thành phần: `.product-grid`.
+- Thuộc tính: `gap`.
+- Trước khi sửa: `16px`.
+- Sau khi sửa: `32px` trên Desktop.
+- Lý do: Tăng khoảng cách giữa các thẻ sản phẩm,
+  giúp bố cục thoáng và dễ phân biệt sản phẩm.
+- Kết quả: Đã lưu CSS và tải lại trang trên Chrome
+  để quan sát sự thay đổi.
+- Kiến thức hiểu được: `gap` điều chỉnh khoảng cách
+  giữa các phần tử trong CSS Grid.
 
 ### 5.4. Những đề xuất không triển khai
 
@@ -98,14 +106,33 @@ Từ bộ mã nguồn ban đầu, thuộc tính `gap` của `.product-grid` đư
 
 ## 6. Phần tôi hiểu và có thể giải thích
 
-- **`<main>`:** Xác định nội dung chính của trang.
-- **`<section>`:** Gom nhóm nội dung sản phẩm và phần giới thiệu.
-- **`<article>`:** Đại diện cho từng thẻ sản phẩm độc lập.
-- **`<img>` và thuộc tính `alt`:** Hiển thị hình ảnh và cung cấp nội dung thay thế.
-- **`<details>` / `<summary>`:** Cho phép mở/đóng nội dung xem nhanh bằng HTML thuần.
-- **`.product-grid`:** Dùng `display: grid` và `grid-template-columns` để bố trí nhiều thẻ theo cột.
-- **`.pricing strong` và `<del>`:** Làm nổi bật giá bán, đồng thời trình bày giá gốc dưới dạng gạch ngang.
-- **`gap`, `padding`, `margin`:** Kiểm soát khoảng cách giữa và bên trong các thành phần.
-- **`@media`:** Điều chỉnh số cột và kích thước thành phần theo độ rộng màn hình, hỗ trợ responsive.
+Sau khi tham khảo mã nguồn AI hỗ trợ, tôi đã tìm hiểu và nắm được một số thành phần cơ bản:
 
-**Kết luận:** ChatGPT hỗ trợ khảo sát, đề xuất thiết kế và giải thích mã nguồn; người thực hiện có trách nhiệm kiểm chứng kết quả trên trình duyệt, tự điều chỉnh tối thiểu một điểm và giải thích được phần mã đã sửa. Toàn bộ dữ liệu sản phẩm trong bản demo chỉ phục vụ học tập.
+### 6.1. HTML – Tạo nội dung trang web
+- `index.html`: File chính chứa nội dung trang web.
+- `<main>`: Chứa nội dung chính của trang.
+- `<section>`: Nhóm các nội dung liên quan.
+- `<article>`: Đại diện cho một thẻ sản phẩm riêng biệt.
+- `<img>`: Hiển thị hình ảnh sản phẩm.
+- `<strong>`: Nhấn mạnh giá bán.
+- `<del>`: Hiển thị giá gốc có gạch ngang.
+- `<details>` và `<summary>`: Cho phép mở/đóng thông tin sản phẩm mà không cần JavaScript.
+
+### 6.2. CSS – Trang trí giao diện
+- `style.css`: Điều chỉnh màu sắc, kích thước và cách sắp xếp nội dung.
+- `display: grid`: Chia danh sách sản phẩm thành các cột.
+- `gap`: Điều chỉnh khoảng cách giữa các thẻ sản phẩm.
+- `padding`: Tạo khoảng cách bên trong một thành phần.
+- `border-radius`: Bo tròn các góc.
+
+### 6.3. Hiển thị trên nhiều thiết bị
+- `@media`: Giúp giao diện thay đổi theo kích thước màn hình.
+- Máy tính hiển thị 4 sản phẩm một hàng, máy tính bảng 2 sản phẩm và điện thoại 1 sản phẩm theo các mốc kích thước đã thiết kế.
+
+### 6.4. Những điều tôi có thể giải thích
+- HTML tạo nội dung, còn CSS giúp giao diện đẹp và dễ nhìn hơn.
+- Website có 4 thẻ sản phẩm mẫu với hình ảnh, tên, giá và nút xem nhanh.
+- Khi mở `index.html`, trình duyệt đọc HTML và CSS để hiển thị trang web.
+- Dự án chưa có backend hoặc chức năng thanh toán thực tế.
+
+**Kết luận:** AI hỗ trợ tạo mã nguồn ban đầu và giải thích các thành phần. Tôi tập trung tìm hiểu cấu trúc HTML, cách sắp xếp sản phẩm bằng CSS và kiểm tra kết quả trên trình duyệt.
